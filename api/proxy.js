@@ -5,7 +5,7 @@ export default async function handler(req, res) {
   const SITE_ID = '69c11e3a62cbd5490546ec0f';
 
   const response = await fetch(
-    `https://api.webflow.com/v2/sites/${SITE_ID}/collections/${COLLECTION_ID}/items?slug=${slug}`,
+    `https://api.webflow.com/v2/sites/${SITE_ID}/collections`,
     {
       headers: {
         Authorization: `Bearer ${TOKEN}`,
