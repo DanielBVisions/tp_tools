@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   const { slug } = req.query;
-  const TOKEN = 'YOUR_NEW_API_TOKEN';
+  const TOKEN = 'd8d75deb84b433bc694d5ced90c94b5a4de627a8fbc6565d49becac50f344ce5';
   const COLLECTION_ID = '69f0c5f8a03008cb9747ec85';
   const SITE_ID = '69c11e3a62cbd5490546ec0f';
 
